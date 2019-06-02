@@ -2,7 +2,7 @@
 @name        TypeRacer Responsive Dark Theme
 @description Saving you energy and strain on your eyes!
 @namespace   Lachney
-@version     0.0.2
+@version     0.0.3
 @homepageURL https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme
 @updateURL   https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/css/responsive-dark.user.css
 @license     CC-BY-SA-4.0
@@ -34,7 +34,8 @@ table.themeHeader table.mainUserInfoBox {
 }
 .mainMenu .enterRace {
 	height: 200px !important;
-	background-image: url("https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/night.png?raw=true") !important;
+	background-color: #333;
+    background-image: url("https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/night.png?raw=true") !important;
 	background-size: cover;
 	border: #333 1px solid;
 	border-radius: 8px;
@@ -157,6 +158,30 @@ table.themeHeader > tbody {
 	color: #eee;
 	border: 1px solid #333;
 }
+
+.horizontalCountdownPopup .lightLabel .countdownPopup {
+    background-color: #222 !important;
+}
+
+table > tbody > tr:nth-child(2) > td > table > tbody {
+    color: #eee !important;
+    background: #222 !important;
+}
+
+.mainViewport table.scoreboard > tbody > tr table tr td:nth-child(2) .rankPanelWpm {
+    color: #eee !important;
+}
+.chrome_1, .chrome_m, .chrome_r, .mainViewport, table.inputPanel {
+    background-color: #222 !important;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.txtInput {
+    background-color: #222 !important;
+    color: #eee !important;
+}
+
 #footer {
 	background: #222;
 }
