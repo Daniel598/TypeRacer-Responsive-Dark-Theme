@@ -2,13 +2,14 @@
 @name        TypeRacer Responsive Dark Theme
 @description Saving you energy and strain on your eyes!
 @namespace   Lachney
-@version     0.0.3
+@version     0.0.4
 @homepageURL https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme
 @updateURL   https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/css/responsive-dark.user.css
 @license     CC-BY-SA-4.0
 @author      Lachney
 ==/UserStyle== */
 @-moz-document domain("staging.typeracer.com") {
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
 html {
 	background: #111;
 	color: #eee !important;
@@ -35,10 +36,13 @@ table.themeHeader table.mainUserInfoBox {
 .mainMenu .enterRace {
 	height: 200px !important;
 	background-color: #333;
-    background-image: url("https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/night.png?raw=true") !important;
+	background-image: url("https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/night.png?raw=true") !important;
 	background-size: cover;
 	border: #333 1px solid;
 	border-radius: 8px;
+}
+.bkgnd-yellow, .bkgnd-blue, .bkgnd-purple, .bkgnd-green {
+	transition: all 175ms;
 }
 .enterRace h2, h3 {
 	color: #eee !important;
@@ -147,41 +151,61 @@ table.themeHeader > tbody {
 	background-size: cover;
 	border: #333 1px solid;
 	border-radius: 8px;
-    max-width: 770px !important;
+	max-width: 770px !important;
 }
 #school-edition-promo ul li {
 	background-image: url("https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/arrow.png?raw=true");
-    background-position: 0px 7px;
+	background-position: 0px 7px;
 }
 .StatsTable table tr td {
 	background: #222 !important;
 	color: #eee;
 	border: 1px solid #333;
 }
-
 .horizontalCountdownPopup .lightLabel .countdownPopup {
-    background-color: #222 !important;
+	background-color: #222 !important;
 }
-
-table > tbody > tr:nth-child(2) > td > table > tbody {
-    color: #eee !important;
-    background: #222 !important;
+table.inputPanel div {
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 24px;
 }
-
+.mainViewport table.inputPanel {
+	border: none;
+}
 .mainViewport table.scoreboard > tbody > tr table tr td:nth-child(2) .rankPanelWpm {
-    color: #eee !important;
+	color: #eee !important;
 }
 .chrome_1, .chrome_m, .chrome_r, .mainViewport, table.inputPanel {
-    background-color: #222 !important;
-    border-radius: 8px;
-    padding: 10px;
+	background-color: #111 !important;
+	border-radius: 8px;
+	padding: 10px;
 }
-
 .txtInput {
-    background-color: #222 !important;
-    color: #eee !important;
+	background-color: #222 !important;
+	color: #eee !important;
 }
-
+table > tbody > tr:nth-child(4) > td > div > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) {
+	width: 200px !important;
+}
+table > tbody > tr:nth-child(4) > td > div > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > div img {
+	width: 100%;
+}
+.popupContent, .DialogBox, .PlayerInfoPopup, .trPopupDialog, .gwt-MenuBar, .textInfoHeader, .mainViewport table.textInfoView > tbody > tr:nth-child(3) td {
+	background-color: #222 !important;
+	color: #eee !important;
+	transition: all 75ms;
+}
+.textInfoHeader, .mainViewport table.textInfoView {
+	border: 1px solid #333;
+}
+.gwt-MenuItem:hover {
+	background-color: #444 !important;
+	transition: all 75ms;
+}
+.DialogBox.trPopupDialog {
+	-webkit-box-shadow: 1px 2px 7px #eee;
+	box-shadow: 1px 2px 7px #eee;
+}
 #footer {
 	background: #222;
 }
