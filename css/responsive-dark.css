@@ -1,0 +1,151 @@
+html {
+	background: #111;
+	color: #eee !important;
+}
+.themeContent {
+	max-width: 800px !important;
+}
+h1, h2, h3, h4, h5, li {
+	color: #eee !important;
+}
+table.themeHeader {
+	background: #222;
+}
+#tr_textHeader {
+	color: #eee !important;
+}
+.eastWidget {
+	display: none;
+}
+table.themeHeader table.mainUserInfoBox {
+	background-color: #222;
+	color: #eee;
+}
+.mainMenu .enterRace {
+	height: 200px !important;
+	background-image: url("https://i.qua.cx/BWD3w.png") !important;
+	background-size: cover;
+	border: #333 1px solid;
+	border-radius: 8px;
+}
+.enterRace h2, h3 {
+	color: #eee !important;
+}
+.mainMenu .practice {
+	background-image: none;
+	background-color: #222;
+	color: #eee !important;
+	height: 200px !important;
+	background-size: cover;
+	border: #333 1px solid;
+	border-radius: 8px;
+}
+.mainMenu .friends {
+	background-image: none;
+	background-color: #222;
+	color: #eee !important;
+	height: 200px !important;
+	background-size: cover;
+	border: #333 1px solid;
+	border-radius: 8px;
+}
+.statsView {
+	background-image: none;
+	background-color: #222;
+	color: #eee !important;
+	background-size: cover;
+	border: #333 1px solid;
+	border-radius: 8px;
+}
+.StatsTable table tr.headerRow td {
+	background-color: #333 !important;
+	border: 1px solid #333;
+}
+.prompt-button.bkgnd-yellow, .mainViewport table.navControls tr td:nth-child(1) a.bkgnd-yellow.gwt-Anchor, .mainViewport table.navControls tr td:nth-child(2) .bkgnd-yellow.raceAgainLink, .mainViewport table.textInfoView > tbody > tr .tblOwnStats .ScoreMenuButton .bkgnd-yellow.gwt-Anchor {
+	width: 210px !important;
+	font-size: 16px !important;
+	position: relative;
+	top: 10px;
+	color: #eee;
+	text-shadow: 0px 2px 5px rgb(0, 0, 0);
+	background-color: #FCC200
+}
+.bkgnd-blue, .bkgnd-purple {
+	width: 210px !important;
+	font-size: 16px !important;
+	position: relative;
+	top: 10px;
+	color: #eee;
+	text-shadow: 0px 2px 5px rgb(0, 0, 0);
+}
+.prompt-button{
+	color: #eee !important;
+}
+.userNameLabel {
+	color: #eee !important;
+}
+.mainUserInfoBox mainUserInfoBox--nouser {
+	background-color: #222;
+}
+#tstats {
+	height: 50px !important;
+}
+.navigation {
+	height: 50px;
+	flex: 0 1 25% !important;
+	position: relative;
+	top: 20px;
+	display: block;
+	white-space:nowrap;
+}
+.mobileNav {
+	background: #222;
+	color: #eee;
+}
+.mobileNav a {
+	color: #eee;
+}
+.mobileNav a:hover {
+	color: #eee;
+	background: #333;
+}
+.mobileMenu li + li {
+	border-top: #555 1px solid
+}
+table.themeHeader table.mainUserInfoBox {
+	border: none !important;
+	border-right: none !important;
+}
+#themeHeader {
+	background: none;
+}
+#tr_textHeader {
+	font-size: 150% !important;
+	margin: 0 auto;
+	text-align: center !important;
+	padding-bottom: 20px
+}
+table.themeHeader > tbody {
+	height: 10px !important;
+}
+#school-edition-promo {
+	background-image: none;
+	background-color: #222;
+	color: #eee !important;
+	background-size: cover;
+	border: #333 1px solid;
+	border-radius: 8px;
+    max-width: 770px !important;
+}
+#school-edition-promo ul li {
+	background-image: url("https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/arrow.png?raw=true");
+    background-position: 0px 7px;
+}
+.StatsTable table tr td {
+	background: #222 !important;
+	color: #eee;
+	border: 1px solid #333;
+}
+#footer {
+	background: #222;
+}
