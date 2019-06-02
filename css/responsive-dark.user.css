@@ -2,26 +2,14 @@
 @name        TypeRacer Responsive Dark Theme
 @description Saving you energy and strain on your eyes!
 @namespace   Lachney
-@version     0.0.5
+@version     0.0.6
 @homepageURL https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme
 @updateURL   https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/css/responsive-dark.user.css
 @license     CC-BY-SA-4.0
 @author      Lachney
 ==/UserStyle== */
 @-moz-document domain("staging.typeracer.com") {
-	/* ubuntu-mono-regular - greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext */
-	@font-face {
-	  font-family: 'Ubuntu Mono';
-	  font-style: normal;
-	  font-weight: 400;
-	  src: url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.eot'); /* IE9 Compat Modes */
-	  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'),
-	       url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	       url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
-	       url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.woff') format('woff'), /* Modern Browsers */
-	       url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-	       url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.svg#UbuntuMono') format('svg'); /* Legacy iOS */
-	}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
 html {
 	background: #111;
 	color: #eee !important;
@@ -29,7 +17,7 @@ html {
 .themeContent {
 	max-width: 800px !important;
 }
-h1, h2, h3, h4, h5, li {
+h1, h2, h3, h4, h5, li, span, a, .gameStatusLabel, .scoreboard, .row, .progressBar, .avatar, .nameContainer {
 	color: #eee !important;
 }
 table.themeHeader {
@@ -187,10 +175,17 @@ table.inputPanel div {
 .mainViewport table.scoreboard > tbody > tr table tr td:nth-child(2) .rankPanelWpm {
 	color: #eee !important;
 }
-.chrome_1, .chrome_m, .chrome_r, .mainViewport, table.inputPanel {
+.chrome_1, .chrome_m, .chrome_r, .mainViewport, table.inputPanel, .roomSection, .messagesPanel, .users-list, .AdvancedTextBox, .txtChatMsgInput, .AdvancedTextBox-unfocused {
 	background-color: #111 !important;
-	border-radius: 8px;
+	border-radius: 4px;
 	padding: 10px;
+}
+
+.messagesPanel, .users-list, .AdvancedTextBox, .txtChatMsgInput, .AdvancedTextBox-unfocused {
+    border: 1px solid #333 !important;
+}
+#dUI > table > tbody > tr > td:nth-child(1) > div > div.mainViewport > table > tbody > tr:nth-child(4) > td > div {
+    border: none;
 }
 .txtInput {
 	background-color: #222 !important;
@@ -218,6 +213,12 @@ table > tbody > tr:nth-child(4) > td > div > table > tbody > tr:nth-child(2) > t
 	-webkit-box-shadow: 1px 2px 7px #eee;
 	box-shadow: 1px 2px 7px #eee;
 }
+.AdContainer, .AdContainer-728x90 {
+	background-color: #222 !important;
+	color: #eee !important;
+    border: 1px solid #333;
+}
+
 #footer {
 	background: #222;
 }
