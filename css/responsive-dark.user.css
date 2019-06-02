@@ -2,7 +2,7 @@
 @name        TypeRacer Responsive Dark Theme
 @description Saving you energy and strain on your eyes!
 @namespace   Lachney
-@version     0.0.6
+@version     0.0.7
 @homepageURL https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme
 @updateURL   https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/css/responsive-dark.user.css
 @license     CC-BY-SA-4.0
@@ -29,7 +29,7 @@ html {
 .themeContent {
 	max-width: 800px !important;
 }
-h1, h2, h3, h4, h5, li, span, a, .gameStatusLabel, .scoreboard, .row, .progressBar, .avatar, .nameContainer {
+h1, h2, h3, h4, h5, li, a, .gameStatusLabel, .scoreboard, .row, .progressBar, .avatar {
 	color: #eee !important;
 }
 table.themeHeader {
@@ -234,5 +234,4 @@ table > tbody > tr:nth-child(4) > td > div > table > tbody > tr:nth-child(2) > t
 #footer {
 	background: #222;
 }
-
 }
