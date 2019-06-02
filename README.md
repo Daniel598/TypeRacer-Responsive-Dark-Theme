@@ -8,4 +8,4 @@ This is a dark theme for the new TypeRacer 2019 Responsive theme. Right now some
 ![Dark](https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/preview.png?raw=true)
 
 ##  Installation
-* 📦 [Install as userstyle](https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/css/responsive-dark.user.css)
+* 📦 [Install as userstyle](https://raw.githubusercontent.com/Lachney/TypeRacer-Responsive-Dark-Theme/master/css/responsive-dark.user.css)
