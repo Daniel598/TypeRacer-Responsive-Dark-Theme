@@ -1,13 +1,3 @@
-/* ==UserStyle==
-@name        TypeRacer Responsive Dark Theme
-@description Saving you energy and strain on your eyes!
-@namespace   Lachney
-@version     0.0.7
-@homepageURL https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme
-@updateURL   https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/css/responsive-dark.user.css
-@license     CC-BY-SA-4.0
-@author      Lachney
-==/UserStyle== */
 @-moz-document domain("staging.typeracer.com") {
 	/* ubuntu-mono-regular - greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext */
 	@font-face {
