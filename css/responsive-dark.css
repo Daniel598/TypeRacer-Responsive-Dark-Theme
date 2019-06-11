@@ -107,6 +107,9 @@ table.themeHeader table.mainUserInfoBox {
 #tstats {
 	height: 50px !important;
 }
+#tstats > table > tbody > tr > td {
+    color: #eee !important;
+}
 .navigation {
 	height: 50px;
 	flex: 0 1 25% !important;
@@ -152,7 +155,7 @@ table.themeHeader > tbody {
 	background-size: cover;
 	border: #333 1px solid;
 	border-radius: 8px;
-	max-width: 770px !important;
+	max-width: 1200px !important;
 }
 #school-edition-promo ul li {
 	background-image: url("https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/arrow.png?raw=true");
