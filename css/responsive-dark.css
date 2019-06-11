@@ -1,224 +1,246 @@
-@font-face {
-	font-family: 'Ubuntu Mono';
-	font-style: normal;
-	font-weight: 400;
-	src: url('https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/fonts/ubuntu-mono-v8-latin-regular.eot?raw=true'); /* IE9 Compat Modes */
-	src: local('Ubuntu Mono'), local('UbuntuMono-Regular'),
-			 url('https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/fonts/ubuntu-mono-v8-latin-regular.ttf?raw=true&#iefix') format('embedded-opentype'), /* IE6-IE8 */
-			 url('https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/fonts/ubuntu-mono-v8-latin-regular.woff2?raw=true') format('woff2'), /* Super Modern Browsers */
-			 url('https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/fonts/ubuntu-mono-v8-latin-regular.woff?raw=true') format('woff'), /* Modern Browsers */
-			 url('https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/fonts//fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-			 url('https://raw.githubusercontent.com/Lachney/TypeRacer-Responsive-Dark-Theme/master/fonts/ubuntu-mono-v8-latin-regular.svg#UbuntuMono') format('svg'); /* Legacy iOS */
-}
+/* ==UserStyle==
+@name        TypeRacer Responsive Dark Theme
+@description Saving you energy and strain on your eyes!
+@namespace   Lachney
+@version     0.0.7
+@homepageURL https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme
+@updateURL   https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/css/responsive-dark.user.css
+@license     CC-BY-SA-4.0
+@author      Lachney
+==/UserStyle== */
+@-moz-document domain("staging.typeracer.com") {
+	/* ubuntu-mono-regular - greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext */
+	@font-face {
+	  font-family: 'Ubuntu Mono';
+	  font-style: normal;
+	  font-weight: 400;
+	  src: url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.eot'); /* IE9 Compat Modes */
+	  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'),
+	       url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	       url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	       url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.woff') format('woff'), /* Modern Browsers */
+	       url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	       url('../fonts/ubuntu-mono-v8-greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext-regular.svg#UbuntuMono') format('svg'); /* Legacy iOS */
+	}
 html {
-background: #111;
-color: #eee !important;
+	background: #111;
+	color: #eee !important;
 }
 .themeContent {
-max-width: 800px !important;
+	max-width: 1200px !important;
 }
 h1, h2, h3, h4, h5, li, a, .gameStatusLabel, .scoreboard, .row, .progressBar, .avatar {
-color: #eee !important;
+	color: #eee !important;
 }
 table.themeHeader {
-background: #222;
+	background: #222;
 }
 #tr_textHeader {
-color: #eee !important;
-}
-.eastWidget {
-display: none;
+	color: #eee !important;
 }
 table.themeHeader table.mainUserInfoBox {
-background-color: #222;
-color: #eee;
+	background-color: #222;
+	color: #eee;
 }
 .mainMenu .enterRace {
-height: 200px !important;
-background-color: #333;
-background-image: url("https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/night.png?raw=true") !important;
-background-size: cover;
-border: #333 1px solid;
-border-radius: 8px;
+	height: 200px !important;
+	background-color: #333;
+	background-image: url("https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/night.png?raw=true") !important;
+	background-size: cover;
+	border: #333 1px solid;
+	border-radius: 8px;
 }
+
+
 .bkgnd-yellow, .bkgnd-blue, .bkgnd-purple, .bkgnd-green {
-transition: all 175ms;
+	transition: all 175ms;
 }
 .enterRace h2, h3 {
-color: #eee !important;
+	color: #eee !important;
 }
 .mainMenu .practice {
-background-image: none;
-background-color: #222;
-color: #eee !important;
-height: 200px !important;
-background-size: cover;
-border: #333 1px solid;
-border-radius: 8px;
+	background-image: none;
+	background-color: #222;
+	color: #eee !important;
+	height: 200px !important;
+	background-size: cover;
+	border: #333 1px solid;
+	border-radius: 8px;
 }
 .mainMenu .friends {
-background-image: none;
-background-color: #222;
-color: #eee !important;
-height: 200px !important;
-background-size: cover;
-border: #333 1px solid;
-border-radius: 8px;
+	background-image: none;
+	background-color: #222;
+	color: #eee !important;
+	height: 200px !important;
+	background-size: cover;
+	border: #333 1px solid;
+	border-radius: 8px;
 }
 .statsView {
-background-image: none;
-background-color: #222;
-color: #eee !important;
-background-size: cover;
-border: #333 1px solid;
-border-radius: 8px;
+	background-image: none;
+	background-color: #222;
+	color: #eee !important;
+	background-size: cover;
+	border: #333 1px solid;
+	border-radius: 8px;
 }
 .StatsTable table tr.headerRow td {
-background-color: #333 !important;
-border: 1px solid #333;
+	background-color: #333 !important;
+	border: 1px solid #333;
 }
 .prompt-button.bkgnd-yellow, .mainViewport table.navControls tr td:nth-child(1) a.bkgnd-yellow.gwt-Anchor, .mainViewport table.navControls tr td:nth-child(2) .bkgnd-yellow.raceAgainLink, .mainViewport table.textInfoView > tbody > tr .tblOwnStats .ScoreMenuButton .bkgnd-yellow.gwt-Anchor {
-width: 210px !important;
-font-size: 16px !important;
-position: relative;
-top: 10px;
-color: #eee;
-text-shadow: 0px 2px 5px rgb(0, 0, 0);
-background-color: #FCC200
+	width: 210px !important;
+	font-size: 16px !important;
+	position: relative;
+	top: 10px;
+	color: #eee;
+	text-shadow: 0px 2px 5px rgb(0, 0, 0);
+	background-color: #FCC200
 }
 .bkgnd-blue, .bkgnd-purple {
-width: 210px !important;
-font-size: 16px !important;
-position: relative;
-top: 10px;
-color: #eee;
-text-shadow: 0px 2px 5px rgb(0, 0, 0);
+	width: 210px !important;
+	font-size: 16px !important;
+	position: relative;
+	top: 10px;
+	color: #eee;
+	text-shadow: 0px 2px 5px rgb(0, 0, 0);
 }
 .prompt-button{
-color: #eee !important;
+	color: #eee !important;
 }
 .userNameLabel {
-color: #eee !important;
+	color: #eee !important;
 }
 .mainUserInfoBox mainUserInfoBox--nouser {
-background-color: #222;
+	background-color: #222;
 }
 #tstats {
-height: 50px !important;
+	height: 50px !important;
 }
 .navigation {
-height: 50px;
-flex: 0 1 25% !important;
-position: relative;
-top: 20px;
-display: block;
-white-space:nowrap;
+	height: 50px;
+	flex: 0 1 25% !important;
+	position: relative;
+	top: 20px;
+	display: block;
+	white-space:nowrap;
 }
 .mobileNav {
-background: #222;
-color: #eee;
+	background: #222;
+	color: #eee;
 }
 .mobileNav a {
-color: #eee;
+	color: #eee;
 }
 .mobileNav a:hover {
-color: #eee;
-background: #333;
+	color: #eee;
+	background: #333;
 }
 .mobileMenu li + li {
-border-top: #555 1px solid
+	border-top: #555 1px solid
 }
 table.themeHeader table.mainUserInfoBox {
-border: none !important;
-border-right: none !important;
+	border: none !important;
+	border-right: none !important;
 }
 #themeHeader {
-background: none;
+	background: none;
 }
 #tr_textHeader {
-font-size: 150% !important;
-margin: 0 auto;
-text-align: center !important;
-padding-bottom: 20px
+	font-size: 150% !important;
+	margin: 0 auto;
+	text-align: center !important;
+	padding-bottom: 20px
 }
 table.themeHeader > tbody {
-height: 10px !important;
+	height: 10px !important;
 }
 #school-edition-promo {
-background-image: none;
-background-color: #222;
-color: #eee !important;
-background-size: cover;
-border: #333 1px solid;
-border-radius: 8px;
-max-width: 770px !important;
+	background-image: none;
+	background-color: #222;
+	color: #eee !important;
+	background-size: cover;
+	border: #333 1px solid;
+	border-radius: 8px;
+	max-width: 770px !important;
 }
 #school-edition-promo ul li {
-background-image: url("https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/arrow.png?raw=true");
-background-position: 0px 7px;
+	background-image: url("https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/arrow.png?raw=true");
+	background-position: 0px 7px;
 }
 .StatsTable table tr td {
-background: #222 !important;
-color: #eee;
-border: 1px solid #333;
+	background: #222 !important;
+	color: #eee;
+	border: 1px solid #333;
 }
 .horizontalCountdownPopup .lightLabel .countdownPopup {
-background-color: #222 !important;
+	background-color: #222 !important;
 }
 table.inputPanel div {
-font-family: 'Ubuntu Mono', monospace;
-font-size: 24px;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 24px;
 }
 .mainViewport table.inputPanel {
-border: none;
+	border: none;
 }
 .mainViewport table.scoreboard > tbody > tr table tr td:nth-child(2) .rankPanelWpm {
-color: #eee !important;
+	color: #eee !important;
 }
 .chrome_1, .chrome_m, .chrome_r, .mainViewport, table.inputPanel, .roomSection, .messagesPanel, .users-list, .AdvancedTextBox, .txtChatMsgInput, .AdvancedTextBox-unfocused {
-background-color: #111 !important;
-border-radius: 4px;
-padding: 10px;
+	background-color: #111 !important;
+	border-radius: 4px;
+	padding: 10px;
 }
 
 .messagesPanel, .users-list, .AdvancedTextBox, .txtChatMsgInput, .AdvancedTextBox-unfocused {
-	border: 1px solid #333 !important;
+    border: 1px solid #333 !important;
 }
 #dUI > table > tbody > tr > td:nth-child(1) > div > div.mainViewport > table > tbody > tr:nth-child(4) > td > div {
-	border: none;
+    border: none;
 }
 .txtInput {
-background-color: #222 !important;
-color: #eee !important;
+	background-color: #222 !important;
+	color: #eee !important;
 }
 table > tbody > tr:nth-child(4) > td > div > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) {
-width: 200px !important;
+	width: 200px !important;
 }
 table > tbody > tr:nth-child(4) > td > div > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > div img {
-width: 100%;
+	width: 100%;
 }
 .popupContent, .DialogBox, .PlayerInfoPopup, .trPopupDialog, .gwt-MenuBar, .textInfoHeader, .mainViewport table.textInfoView > tbody > tr:nth-child(3) td {
-background-color: #222 !important;
-color: #eee !important;
-transition: all 75ms;
+	background-color: #222 !important;
+	color: #eee !important;
+	transition: all 75ms;
 }
 .textInfoHeader, .mainViewport table.textInfoView {
-border: 1px solid #333;
+	border: 1px solid #333;
 }
 .gwt-MenuItem:hover {
-background-color: #444 !important;
-transition: all 75ms;
+	background-color: #444 !important;
+	transition: all 75ms;
 }
 .DialogBox.trPopupDialog {
--webkit-box-shadow: 1px 2px 7px #eee;
-box-shadow: 1px 2px 7px #eee;
+	-webkit-box-shadow: 1px 2px 7px #eee;
+	box-shadow: 1px 2px 7px #eee;
 }
 .AdContainer, .AdContainer-728x90 {
-background-color: #222 !important;
-color: #eee !important;
-	border: 1px solid #333;
+	background-color: #222 !important;
+	color: #eee !important;
+    border: none !important;
+}
+
+.OptionsWidget, .eastWidget {
+    background-color: #222 !important;
+    color: #eee !important;
+    border: none !important;
+}
+
+.gwt-InlineLabel {
+    color: #eee !important;
 }
 
 #footer {
-background: #222;
+	background: #222;
+}
 }
