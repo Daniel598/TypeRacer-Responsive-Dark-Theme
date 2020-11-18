@@ -30,7 +30,6 @@
     }
 
     body, html {
-        background: #111 !important;
         color: #eee !important;
     }
 
@@ -79,7 +78,7 @@
         border: #333 1px solid;
         border-radius: 8px;
     }
-    .StatsTable table tr.headerRow td , .section--boxed {
+    .StatsTable table tr.headerRow td, .section--boxed {
         background-color: #333 !important;
         border: 1px solid #333;
     }
@@ -227,34 +226,59 @@
         color: #eee !important;
         border: 1px solid #333;
     }
-    
+
     .sidebarBlocks-controls p {
-     color: #eee;   
+        color: #eee;
     }
 
-    .sidebarBlocks, .mainViewportHolder .sidebarBlocks iframe, .sidebarBlock show, .sidebarBlock__content, .sidebarBlocks-prev, .sidebarBlocks-next {
+    .sidebarBlocks, .mainViewportHolder .sidebarBlocks iframe {
+        background-color: #111;
+        border-color: #333;
+    }
+    .sidebarBlock show, .sidebarBlock__content, .sidebarBlocks-prev, .sidebarBlocks-next {
         background: #222 !important;
         border-color: #333;
     }
-    
-    .sidebarBlock__subtext { 
+
+    .sidebarBlock__subtext {
         background: #333 !important;
     }
-    
-    .statsView .tab-bar-select select { 
+
+    .statsView .tab-bar-select select {
         background: #222 !important;
         border-color: #333;
     }
-    
-.mainViewport table.navControls tr td:nth-child(1) a.gwt-Anchor {
-    background-color: #F39A27;
-}
-    
+
+    .mainViewport table.navControls tr td:nth-child(1) a.gwt-Anchor {
+        background-color: #F39A27;
+    }
+
     .headerSubmenu {
         background-color: #333;
     }
 
     #footer {
         background: #222;
+    }
+
+    /* Handle */
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #222;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
     }
 }
