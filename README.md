@@ -15,4 +15,4 @@ Use a styling extension like Stylus then click the button below to install.
 * 📦 [Install as userstyle](https://raw.githubusercontent.com/Lachney/TypeRacer-Responsive-Dark-Theme/master/css/responsive-dark.user.css)
 
 ## 🔎 Preview
-![Dark](https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/preview.png?raw=true)
+![Dark](https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/preview2.png?raw=true?raw=true)
