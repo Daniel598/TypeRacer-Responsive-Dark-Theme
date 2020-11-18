@@ -2,13 +2,13 @@
 @name        TypeRacer Responsive Dark Theme
 @description Saving you energy and strain on your eyes!
 @namespace   Lachney
-@version     0.0.12
+@version     0.0.13
 @homepageURL https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme
 @updateURL   https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/css/responsive-dark.user.css
 @license     CC-BY-SA-4.0
 @author      Lachney
 ==/UserStyle== */
-@-moz-document domain("play.typeracer.com") {
+@-moz-document domain("play.typeracer.com"), domain("data.typeracer.com") {
     /* ubuntu-mono-regular - greek-ext_latin_greek_latin-ext_cyrillic_cyrillic-ext */
     @font-face {
         font-family: 'Ubuntu Mono';
@@ -25,7 +25,7 @@
         /* Legacy iOS */
     }
 
-    .main {
+    .main, .container {
         background: #111;
     }
 
@@ -34,7 +34,7 @@
         color: #eee !important;
     }
 
-    h1, h2, h3, h4, h5, li, a, .gameStatusLabel, .scoreboard, .row, .progressBar, .avatar {
+    h1, h2, h3, h4, h5, li, a, .gameStatusLabel, .scoreboard, .row, .progressBar, .avatar, .lblName, .lblUsername, .rank {
         color: #eee !important;
     }
     .themeHeader#themeHeader {
@@ -79,7 +79,7 @@
         border: #333 1px solid;
         border-radius: 8px;
     }
-    .StatsTable table tr.headerRow td {
+    .StatsTable table tr.headerRow td , .section--boxed {
         background-color: #333 !important;
         border: 1px solid #333;
     }
@@ -127,7 +127,6 @@
     }
 
     #tr_textHeader {
-        font-size: 150% !important;
         margin: 0 auto;
         text-align: center !important;
         padding-bottom: 20px
@@ -161,7 +160,7 @@
     }
     table.inputPanel div {
         font-family: 'Ubuntu Mono', monospace;
-        font-size: 24px;
+        font-size: 1.15em;
     }
     .mainViewport table.inputPanel {
         border: none;
@@ -228,12 +227,31 @@
         color: #eee !important;
         border: 1px solid #333;
     }
+    
+    .sidebarBlocks-controls p {
+     color: #eee;   
+    }
 
-
-    .sidebarBlocks, .mainViewportHolder .sidebarBlocks iframe {
-        background-color: #222 !important;
-        color: #eee !important;
-        border: 1px solid #333;
+    .sidebarBlocks, .mainViewportHolder .sidebarBlocks iframe, .sidebarBlock show, .sidebarBlock__content, .sidebarBlocks-prev, .sidebarBlocks-next {
+        background: #222 !important;
+        border-color: #333;
+    }
+    
+    .sidebarBlock__subtext { 
+        background: #333 !important;
+    }
+    
+    .statsView .tab-bar-select select { 
+        background: #222 !important;
+        border-color: #333;
+    }
+    
+.mainViewport table.navControls tr td:nth-child(1) a.gwt-Anchor {
+    background-color: #F39A27;
+}
+    
+    .headerSubmenu {
+        background-color: #333;
     }
 
     #footer {
