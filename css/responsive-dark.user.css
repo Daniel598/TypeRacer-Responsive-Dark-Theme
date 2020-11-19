@@ -2,7 +2,7 @@
 @name        TypeRacer Responsive Dark Theme
 @description Saving you energy and strain on your eyes!
 @namespace   Lachney
-@version     0.0.13
+@version     0.0.14
 @homepageURL https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme
 @updateURL   https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/css/responsive-dark.user.css
 @license     CC-BY-SA-4.0
@@ -249,8 +249,12 @@
         border-color: #333;
     }
 
-    .mainViewport table.navControls tr td:nth-child(1) a.gwt-Anchor {
-        background-color: #F39A27;
+    .mainViewport table.navControls tr td:nth-child(1) a.gwt-Anchor, .mainViewport table.navControls tr td:nth-child(2) .raceAgainLink, .statsView .highScoresView .highScoresFooter .lnkRefresh, .footer-cont .footer-wrapper .footer-east .change-theme-button {
+        background-color: #FF5722;
+    }
+
+    .mainViewport table.navControls tr td:nth-child(2) .raceAgainLink:hover {
+        background-color: #EBC100;
     }
 
     .headerSubmenu {
@@ -280,5 +284,37 @@
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
         background: #555;
+    }
+
+    .mainViewport table.textInfoView > tbody > tr:nth-child(1) > td, .mainViewport table.textInfoView > tbody > tr:nth-child(2) > td, .mainViewport table.textInfoView > tbody > tr .tblOwnStats, .mainViewport table.textInfoView > tbody > tr .tblOwnStats, .mainViewport table.textInfoView > tbody > tr > td .textInfoAuthor, .mainViewport table.textInfoView > tbody > tr > td .textInfoContributor, .mainViewport table.textInfoView > tbody > tr > td .textInfoTitle {
+        background-color: #222;
+        border-color: #333;
+    }
+
+    .mainViewport table.textInfoView > tbody > tr .tblOwnStats .ScoreMenuButton > tbody > tr {
+        background-color: #ff5722
+    }
+
+    .mainViewport div.TypingDisplaySection, .mainViewport table.TypingLogReplayPlayer > tbody > tr *, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(8) > td {
+        background-color: #222;
+        border-color: #333;
+    }
+
+    .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(1) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(2) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(3) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(4) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(5) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(6) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(7) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(9) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(4) table tbody tr, .UserGameResultsView .GameResultsChartView > tbody > tr:nth-child(1) > td > div > div > div > div:nth-child(1) {
+        background-color: #222;
+        border-color: #333;
+    }
+
+    .mainViewport .IncrementSpeedChart > div > div > div:nth-child(1) svg {
+        filter: invert(1);
+        border-radius: 8px;
+    }
+
+    .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(4) table tbody tr img, table > tbody > tr > td > div > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > img {
+        filter: invert(1);
+    }
+
+    .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(3) .lblStatusIndicator, .AnimationSpeedSelector {
+        color: #eee;
     }
 }
