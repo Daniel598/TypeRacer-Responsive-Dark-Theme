@@ -2,7 +2,7 @@
 @name        TypeRacer Responsive Dark Theme
 @description Saving you energy and strain on your eyes!
 @namespace   Lachney
-@version     0.0.14
+@version     1.0.0
 @homepageURL https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme
 @updateURL   https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/css/responsive-dark.user.css
 @license     CC-BY-SA-4.0
@@ -300,7 +300,7 @@
         border-color: #333;
     }
 
-    .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(1) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(2) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(3) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(4) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(5) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(6) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(7) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(9) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(4) table tbody tr, .UserGameResultsView .GameResultsChartView > tbody > tr:nth-child(1) > td > div > div > div > div:nth-child(1) {
+    .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(1) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(2) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(3) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(4) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(5) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(6) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(7) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(9) > td, .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(4) table tbody tr, .UserGameResultsView .GameResultsChartView > tbody > tr:nth-child(1) > td > div > div > div > div:nth-child(1), .sidebarBlocks iframe {
         background-color: #222;
         border-color: #333;
     }
@@ -316,5 +316,35 @@
 
     .mainViewport table.TypingLogReplayPlayer > tbody > tr:nth-child(3) .lblStatusIndicator, .AnimationSpeedSelector {
         color: #eee;
+    }
+
+    .themeContent.login .loginform input[type="text"], .themeContent.login .loginform input[type="password"], .themeContent.pit form input[type="text"], .themeContent.login .loginform select, .themeContent.pit form select, .scorecardTable textarea {
+        background-color: #222;
+        border-color: #333;
+        color: #eee;
+    }
+
+    .scoresTable tr th {
+        background-color: #555;
+        border-color: #333;
+        color: #eee;
+    }
+    .scoresTable tr td {
+        background-color: #222;
+        border-color: #333;
+        color: #eee;
+    }
+    .scoresTable tr td:nth-child(1) {
+        background-color: #444;
+        border-color: #333;
+        color: #eee;
+    }
+
+    .bkgnd-blue {
+        background-color: #ff5722 !important;
+    }
+
+    .headerSubmenu {
+        filter: grayscale(1)
     }
 }
