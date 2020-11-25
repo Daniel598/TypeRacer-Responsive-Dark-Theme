@@ -1,5 +1,14 @@
 ![Dark](https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/previews/racing.png?raw=true)
 
+<center>
+
+[![release](https://img.shields.io/github/v/release/Lachney/TypeRacer-Responsive-Dark-Theme?style=for-the-badge)](https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/releases)
+[![stars](https://img.shields.io/github/stars/Lachney/TypeRacer-Responsive-Dark-Theme?style=for-the-badge)](https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/stargazers)
+[![requires](https://img.shields.io/badge/REQUIRES-STYLUS-orange?style=for-the-badge)](https://github.com/openstyles/stylus#releases)
+[![install](https://img.shields.io/badge/STYLUS-CLICK%20to%20INSTALL-blue?style=for-the-badge)](https://raw.githubusercontent.com/Lachney/TypeRacer-Responsive-Dark-Theme/master/css/responsive-dark.user.css)
+
+</center>
+
 <center><h1> 🌃 TypeRacer-Responsive-Dark-Theme</h1></center>
 <center>Saving you energy and strain on your eyes!</center>
 
@@ -16,11 +25,11 @@ Right now as it is still new as of Nov 2020, there is still wonky things with th
 
 Use a styling extension like Stylus then click the button below to install.
 
+### Requires: Stylus Extension
+
 * [Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 * [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 * [Stylus for Opera](https://addons.opera.com/en/extensions/details/stylus/)
-
-* 📦 [Install as userstyle](https://raw.githubusercontent.com/Lachney/TypeRacer-Responsive-Dark-Theme/master/css/responsive-dark.user.css)
 
 #### Issues
 
