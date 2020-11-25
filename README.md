@@ -21,7 +21,7 @@ Right now as it is still new as of Nov 2020, there is still wonky things with th
 * Everything is dark followed by more orange buttons and text.
 * Tidies up some things on the site to make it cleaner.
 
-##  Installation
+##  Installation Guide
 
 Use a styling extension like Stylus then click the button below to install.
 
@@ -30,6 +30,9 @@ Use a styling extension like Stylus then click the button below to install.
 * [Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 * [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 * [Stylus for Opera](https://addons.opera.com/en/extensions/details/stylus/)
+
+#### Install User-Style
+Head on over the to the [releases section](https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/releases) and install the latest one.
 
 #### Issues
 
