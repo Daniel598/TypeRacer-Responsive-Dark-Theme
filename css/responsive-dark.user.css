@@ -2,7 +2,7 @@
 @name        TypeRacer Responsive Dark Theme
 @description Saving you energy and strain on your eyes!
 @namespace   Lachney
-@version     1.1.1
+@version     1.1.2
 @homepageURL https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme
 @updateURL   https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/css/responsive-dark.user.css
 @license     CC-BY-SA-4.0
@@ -324,12 +324,12 @@
         color: #eee;
     }
 
-    .scoresTable tr th, .friendsTable tr th{
+    .scoresTable tr th, .friendsTable tr th {
         background-color: #555;
         border-color: #333;
         color: #eee;
     }
-    .scoresTable tr td, .friendsTable tr td{
+    .scoresTable tr td, .friendsTable tr td {
         background-color: #222;
         border-color: #333;
         color: #eee;
@@ -353,25 +353,21 @@
     }
 
     /* Redesign Theme Fixes Only */
-    
     /* Little more padding for leaderboard */
     .StatsTable table tr td:nth-child(1) {
-        background-color: #e4f3ff;
-        text-align: center;
-        font-weight: 400;
-        padding: 0.5em;
+        padding: 0.1em;
     }
     /*   Flag Fixes - Competitions   */
-    .scoresTable tr td:nth-child(2)>div, .friendsTable tr td:nth-child(2)>div, .cellTable:not(.queryTable) tr td:nth-child(2)>div {
-    display: inline-block;
-    margin-left: 5px;
+    .scoresTable tr td:nth-child(2) > div, .friendsTable tr td:nth-child(2) > div, .cellTable:not(.queryTable) tr td:nth-child(2) > div {
+        display: inline-block;
+        margin-left: 5px;
     }
     /*   Rounded Profile Pictures - Friends   */
     .userProfilePicLink img {
         border-radius: 64px;
     }
     /*  Wider Profiles    */
-    .StatsTable table tr.headerRow td, .section--boxed {
+    body > div.ie-fixMinHeight > div > div.container > div.main > div.themeContent.pit > div {
         width: 130% !important;
     }
 }
