@@ -1,3 +1,5 @@
+![Dark](https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/preview2.png?raw=true?raw=true)
+
 <center><h1> 🌃 TypeRacer-Responsive-Dark-Theme</h1></center>
 <center>Saving you energy and strain on your eyes!</center>
 
@@ -11,8 +13,6 @@ Use a styling extension like Stylus then click the button below to install.
 * [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 * [Stylus for Opera](https://addons.opera.com/en/extensions/details/stylus/)
 
+---
 
 * 📦 [Install as userstyle](https://raw.githubusercontent.com/Lachney/TypeRacer-Responsive-Dark-Theme/master/css/responsive-dark.user.css)
-
-## 🔎 Preview
-![Dark](https://github.com/Lachney/TypeRacer-Responsive-Dark-Theme/blob/master/assets/preview2.png?raw=true?raw=true)
