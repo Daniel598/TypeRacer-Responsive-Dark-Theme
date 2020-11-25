@@ -16,7 +16,7 @@
 
 This is a dark theme for the new TypeRacer 2020 Responsive theme.
 
-Right now as it is still new as of Nov 2020, there is still wonky things with this new theme. While the goal is to made this a good looking dark theme, there is some enhancements as well that just tidy up the theme.
+Right now as it is still new as of Nov 2020, there is still wonky things with this new theme. While the goal is to make this a good looking dark theme, there is some enhancements as well that just tidy up the theme.
 
 * Everything is dark followed by more orange buttons and text.
 * Tidies up some things on the site to make it cleaner.
