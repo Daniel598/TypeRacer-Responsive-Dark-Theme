@@ -5,7 +5,7 @@
 [![release](https://img.shields.io/github/v/release/Lachney/TypeRacer-Responsive-Dark-Theme?style=for-the-badge)](https://github.com/Daniel598/TypeRacer-Responsive-Dark-Theme/releases)
 [![stars](https://img.shields.io/github/stars/Lachney/TypeRacer-Responsive-Dark-Theme?style=for-the-badge)](https://github.com/Daniel598/TypeRacer-Responsive-Dark-Theme/stargazers)
 [![requires](https://img.shields.io/badge/REQUIRES-STYLUS-orange?style=for-the-badge)](https://github.com/openstyles/stylus#releases)
-[![install](https://img.shields.io/badge/STYLUS-CLICK%20to%20INSTALL-green?style=for-the-badge)](https://raw.githubusercontent.com/Daniel598/TypeRacer-Responsive-Dark-Theme/master/css/responsive-dark.user.css)
+[![install](https://img.shields.io/badge/STYLUS-CLICK%20to%20INSTALL-green?style=for-the-badge)](https://raw.githubusercontent.com/Daniel598/TypeRacer-Responsive-Dark-Theme/blob/master/css/responsive-dark.user.css)
 
 </center>
 
